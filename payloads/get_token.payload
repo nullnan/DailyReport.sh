@@ -1,0 +1,12 @@
+curl 'https://auth.xiaoyuanjijiehao.com/oauth2/token' \
+  -X 'POST' \
+  -G \
+  --data-urlencode 'grant_type=password' \
+  --data-urlencode 'password='$2 \
+  --data-urlencode 'username='$1 \
+  -H 'authority: auth.xiaoyuanjijiehao.com' \
+  -H 'content-length: 0' \
+  -H 'authorization: BASIC NTgyYWFhZTU5N2Q1YjE2ZTU4NjhlZjVmOmRiMzU3YmRiNmYzYTBjNzJkYzJkOWM5MjkzMmFkMDYyZWRkZWE5ZjY=' \
+  -H 'user-agent: Dalvik/2.1.0 (Linux; U; Android 10; MI 9 MIUI/21.1.13)' \
+  --compressed \
+  -s

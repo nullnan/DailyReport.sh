@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  daily_report:
+    restart: always
+    build:
+      context: .
+      dockerfile: Containerfile

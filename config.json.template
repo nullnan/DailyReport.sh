@@ -1,0 +1,15 @@
+{
+    "phone": "",
+    "password": "",
+    "debug": false,
+    "info": {
+        "college": "",
+        "major": "",
+        "grade": "",
+        "class": "",
+        "name": "",
+        "id": "",
+        "campus": "",
+        "location": ""
+    }
+}
